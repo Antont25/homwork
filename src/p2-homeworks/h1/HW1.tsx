@@ -3,7 +3,7 @@ import Message from "./Message";
 
 
 const messageData = {
-    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
+    avatar: 'https://www.blast.hk/attachments/74778/',
     name: 'Some Name',
     message: 'some text ',
     time: '22:00',
