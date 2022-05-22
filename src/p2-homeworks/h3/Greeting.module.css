@@ -16,6 +16,7 @@
 .formBlock {
     display: flex;
     align-items: flex-start;
+    height: 50px;
 }
 
 .formBlock > button {
