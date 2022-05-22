@@ -5,3 +5,9 @@
 .buttonRed {
     margin: 5px 0 0 5px;
 }
+
+.affairBlock {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100px 60px 50px;
+}

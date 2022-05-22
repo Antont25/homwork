@@ -15,7 +15,7 @@ function Affair(props: AffairPropsType) {
     }// need to fix
 
     return (
-        <div>
+        <div className={style.affairBlock}>
             <span>{props.affair.name}</span>
             <span>{props.affair.priority}</span>
             <SuperButton red onClick={() => deleteCallback(props.affair._id)}
