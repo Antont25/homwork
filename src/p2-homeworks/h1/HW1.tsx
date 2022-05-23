@@ -1,9 +1,9 @@
 import React from 'react'
 import Message from "./Message";
-
+import avatar from './img/ava.png'
 
 const messageData = {
-    avatar: 'https://www.blast.hk/attachments/74778/',
+    avatar,
     name: 'Some Name',
     message: 'some text ',
     time: '22:00',
