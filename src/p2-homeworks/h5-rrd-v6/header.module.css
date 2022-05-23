@@ -1,0 +1,35 @@
+.leftSidebar {
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+}
+
+.leftSidebarMenu {
+    position: absolute;
+    top: 0;
+    height: 50px;
+    left: -320px;
+    width: 280px;
+    background: #186b4e;
+}
+
+
+.leftSidebar:hover .leftSidebarMenu {
+    transition: all 1.25s linear;
+    left: 0;
+}
+
+.show {
+    margin-top: 20px;
+}
+
+
+.item {
+    text-decoration: none;
+    margin: 0 5px;
+    color: aqua;
+}
+
+.item:hover {
+    color: white;
+}
