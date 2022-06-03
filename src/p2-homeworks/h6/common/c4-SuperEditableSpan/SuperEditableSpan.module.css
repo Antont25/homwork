@@ -1,0 +1,10 @@
+
+.inputStyle {
+    color: #61dafb;
+}
+
+.inputStyle:before {
+    content: url('premium-icon-pen-4409339 (1).png ') ' ';
+    position: relative;
+    top: 4px;
+}
