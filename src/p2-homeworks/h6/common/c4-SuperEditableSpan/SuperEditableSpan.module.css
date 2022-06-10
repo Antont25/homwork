@@ -1,6 +1,9 @@
 
 .inputStyle {
     color: #61dafb;
+    display: inline-block;
+    height: 27px;
+    cursor: pointer;
 }
 
 .inputStyle:before {
