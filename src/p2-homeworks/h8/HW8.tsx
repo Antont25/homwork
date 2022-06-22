@@ -18,18 +18,19 @@ const initialPeople: Array<UserType> = [
 ]
 
 function HW8() {
-    const [people, dispatch] = useReducer(homeWorkReducer, initialPeople) // need to fix any
+
+    const [people, setpeople] = useState<Array<UserType>>(initialPeople) // need to fix any
 
     // need to fix any
     const finalPeople = people.map((p: UserType) => (
-        <div key={p._id}>
-            some name:{p.name}, age:{p.age}
+        <div key={p._id} style={{display: 'flex'}}>
+            <span style={{width: '150px'}}><b> name: </b> {p.name},</span> <span><b>age: </b> {p.age}</span>
         </div>
     ))
 
-    const sortUp = () => dispatch(sortHandler('up'))
-    const sortDown = () => dispatch(sortHandler("down"))
-    const check = () => dispatch(checkHandler(18))
+    const sortUp = () => setpeople(homeWorkReducer(initialPeople, sortHandler('up')))
+    const sortDown = () => setpeople(homeWorkReducer(initialPeople, sortHandler('down')))
+    const check = () => setpeople(homeWorkReducer(initialPeople, checkHandler(18)))
 
     return (
         <div>

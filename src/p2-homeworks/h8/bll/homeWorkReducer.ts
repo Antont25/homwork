@@ -16,9 +16,7 @@ export const CHECK = 'CHECK'
 export const homeWorkReducer = (state: Array<UserType>, action: ActionType): Array<UserType> => {
     switch (action.type) {
         case SORT: {
-            let nweState = [...state];
-
-            return nweState.sort((a, b) => {
+            return [...state].sort((a, b) => {
                 if (action.payload === 'up') {
                     return a.name > b.name ? 1 : -1
                 } else {
@@ -27,8 +25,8 @@ export const homeWorkReducer = (state: Array<UserType>, action: ActionType): Arr
             })
         }
         case CHECK: {
-            let nweState = [...state];
-            return nweState.filter(item => item.age > action.payload)
+
+            return state.filter(item => item.age > action.payload)
         }
         default:
             return state
