@@ -21,7 +21,8 @@ function HW10() {
         <div>
             <hr/>
             homeworks 10
-            
+
+
             {isLoading
                 ? (
                     <div className={style.loadingBloc}>
@@ -33,6 +34,9 @@ function HW10() {
                     </div>
                 )
             }
+
+            <hr/>
+            <hr/>
         </div>
     )
 }

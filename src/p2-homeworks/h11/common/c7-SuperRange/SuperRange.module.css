@@ -1,3 +1,71 @@
 .range {
 
 }
+
+.text {
+    min-width: 30px;
+    display: inline-block;
+}
+
+
+input[type=range] {
+    width: 200px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+
+    height: 7px;
+    border: 2px solid #09593d;
+    border-radius: 10px / 100%;
+}
+
+input[type=range] {
+    width: 200px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    border-radius: 10px/100%;
+    height: 7px;
+    border: 1px solid #09593d;
+    background-color: #fff;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    background: #ecf0f1;
+    border: 1px solid #09593d;
+    border-radius: 10px/100%;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    -webkit-appearance: none;
+    margin-top: -4px;
+
+}
+
+input[type=range]::-moz-range-track {
+    border-radius: 10px/100%;
+    height: 5px;
+    border: 1px solid #09593d;
+    background-color: #fff;
+}
+
+input[type=range]::-moz-range-thumb {
+    background: #ecf0f1;
+    border: 1px solid #09593d;
+    border-radius: 10px/100%;
+    cursor: pointer;
+}
+
+.superRangeBloc {
+    display: flex;
+}
+
+.textValue2 {
+    min-width: 30px;
+    display: inline-block;
+    margin-left: 20px;
+}
