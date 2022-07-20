@@ -1,3 +1,7 @@
+.select {
+    margin-left: 20px;
+}
+
 .dark {
     background: dimgrey;
 }
@@ -20,4 +24,20 @@
 
 .some-text {
     color: darkslateblue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.yellow-text {
+    color: #523f3f;
+}
+
+.blue {
+    background: blue;
+}
+
+.blue-text {
+    color: #ad9b9b;
 }
